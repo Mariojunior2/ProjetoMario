@@ -1,3 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  background-size: cover;
+}
+
+.restartT span:nth-child(1) {
+  color: red;
+}
+
+.restartT span:nth-child(2) {
+  color: blue;
+}
+
+.restartT span:nth-child(3) {
+  color: yellow;
+}
+
+.restartT span:nth-child(4) {
+  color: green;
+}
+
+.restartT span:nth-child(5) {
+  color: orange;
+}
+
+.restartT span:nth-child(6) {
+  color: purple;
+}
+
+.corP span:nth-child(1) {
+  color: red;
+}
+
+.corP span:nth-child(2) {
+  color: blue;
+}
+
+.corP span:nth-child(3) {
+  color: yellow;
+}
+
+.corP span:nth-child(4) {
+  color: green;
+}
+
+.corP span:nth-child(5) {
+  color: orange;
+}
+
+.corP span:nth-child(6) {
+  color: purple;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,12 +103,33 @@
 }
 
 .restart {
+  font-family: "Press Start 2P";
   height: 60px;
   width: 350px;
   border-radius: 10px;
   border: none;
   font-size: 20px;
-  background-color: rgb(238, 255, 0);
+  background-color: rgba(1, 151, 1, 0.815);
+  cursor: pointer;
+}
+
+.Comeco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.start {
+  font-family: "Press Start 2P";
+  position: fixed;
+  top: 50%;
+  height: 60px;
+  width: 350px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(1, 151, 1, 0.815);
   cursor: pointer;
 }
 
