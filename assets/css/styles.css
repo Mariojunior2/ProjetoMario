@@ -60,10 +60,13 @@ body {
 .gameB {
   width: 100%;
   height: 37.8pc;
-  border-bottom: 50px solid green;
   position: relative;
   overflow: hidden;
   background: linear-gradient(#63c4eb, #E0F6FF);
+}
+
+.bord {
+  border-bottom: 50px solid green;
 }
 
 .pipe {
