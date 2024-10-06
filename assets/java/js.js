@@ -12,7 +12,6 @@ const jumpAudio = new Audio('assets/audios/smw_jump.wav');
 const player = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const nuvem = document.querySelector('.cloud');
-
 const over = document.querySelector('.game-over');
 const restartB = document.querySelector('.restart');
 
