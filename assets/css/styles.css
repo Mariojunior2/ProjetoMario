@@ -3,6 +3,10 @@ body {
   background-size: cover;
 }
 
+.display {
+  display: none;
+}
+
 .restartT span:nth-child(1) {
   color: red;
 }
